@@ -8,13 +8,13 @@
 
 import UIKit
 
-public func styleMultiline() -> (UILabel) -> Void {
+public func styleLabelMultiline() -> (UILabel) -> Void {
     return {
         $0.numberOfLines = 0
     }
 }
 
-public func styleTextAlignment(_ textAlignment: NSTextAlignment) -> (UILabel) -> Void {
+public func styleLabelTextAlignment(_ textAlignment: NSTextAlignment) -> (UILabel) -> Void {
     return {
         $0.textAlignment = textAlignment
     }

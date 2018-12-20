@@ -8,7 +8,8 @@ let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 100))
 
 let style = styleViewBackgroundColor(.white) <> styleViewCornerRadius(30) <>
     styleViewBorder(color: .blue, width: 3) <>
-    styleTextAlignment(.center)
+    styleLabelTextAlignment(.center) <>
+    styleLabelFont(UIFont.boldSystemFont(ofSize: 60))
 
 style(label)
 label.text = "hello"

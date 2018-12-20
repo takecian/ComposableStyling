@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: Diamond operator
 precedencegroup SingleTypeComposition {
-    associativity: right
+    associativity: left
 }
 
 infix operator<>: SingleTypeComposition
