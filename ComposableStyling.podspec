@@ -26,7 +26,8 @@ Functional styling provides elegant composable styling implementation in Swift.
   s.author           = { 'takecian' => 'takeshi.fujiki@linecorp.com' }
   s.source           = { :git => 'https://github.com/takecian/ComposableStyling.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version    = '4.2'
+  
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ComposableStyling/**/*.swift'
