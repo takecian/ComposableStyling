@@ -29,6 +29,7 @@
 		6429170F21CB8D70006472BF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		6429171121CB8E4E006472BF /* ComposableOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableOperator.swift; sourceTree = "<group>"; };
 		6429171321CB8F6A006472BF /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		6429171521CB9106006472BF /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		64F52DA821CB8C63008CB27D /* ComposableStyling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableStyling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F52DAB21CB8C63008CB27D /* ComposableStyling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposableStyling.h; sourceTree = "<group>"; };
 		64F52DAC21CB8C63008CB27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		64F52D9E21CB8C63008CB27D = {
 			isa = PBXGroup;
 			children = (
+				6429171521CB9106006472BF /* Playground.playground */,
 				64F52DAA21CB8C63008CB27D /* ComposableStyling */,
 				64F52DB521CB8C63008CB27D /* ComposableStylingTests */,
 				64F52DA921CB8C63008CB27D /* Products */,

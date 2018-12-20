@@ -10,12 +10,12 @@ import UIKit
 
 // MARK: Diamond operator
 precedencegroup SingleTypeComposition {
-    associativity: left
+    associativity: right
 }
 
 infix operator<>: SingleTypeComposition
 
-func <> <A: AnyObject>(f: @escaping (A) -> Void, g: @escaping (A) -> Void) -> (A) -> Void {
+public func <> <A: AnyObject>(f: @escaping (A) -> Void, g: @escaping (A) -> Void) -> (A) -> Void {
     return { a in
         f(a)
         g(a)
