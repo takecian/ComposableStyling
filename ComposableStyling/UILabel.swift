@@ -19,3 +19,15 @@ public func styleTextAlignment(_ textAlignment: NSTextAlignment) -> (UILabel) ->
         $0.textAlignment = textAlignment
     }
 }
+
+public func styleLabelFont(_ font: UIFont) -> (UILabel) -> Void {
+    return {
+        $0.font = font
+    }
+}
+
+public func styleLabelTextColor(_ color: UIColor) -> (UILabel) -> Void {
+    return {
+        $0.textColor = color
+    }
+}

@@ -3,5 +3,6 @@
     <pages>
         <page name='UILabel'/>
         <page name='UIView'/>
+        <page name='UIButton'/>
     </pages>
 </playground>
