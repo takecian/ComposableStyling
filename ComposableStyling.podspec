@@ -30,7 +30,7 @@ Functional styling provides elegant composable styling implementation in Swift.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ComposableStyling/**/*.swift'
+  s.source_files = 'ComposableStyling/*.swift'
   
   # s.resource_bundles = {
   #   'ComposableStyling' => ['ComposableStyling/Assets/*.png']
