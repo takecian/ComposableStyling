@@ -27,3 +27,12 @@ public func styleViewCornerRadius(_ cornerRadius: CGFloat) -> (UIView) -> Void {
         $0.layer.masksToBounds = true
     }
 }
+
+public func styleViewShadow(color: CGColor, opacity: Float, offset: CGSize, radius: CGFloat) -> (UIView) -> Void {
+    return {
+        $0.layer.shadowColor = color
+        $0.layer.shadowRadius = radius
+        $0.layer.shadowOffset = offset
+        $0.layer.shadowOpacity = opacity
+    }
+}
