@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610C19D521D122C60031718A /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610C19D421D122C60031718A /* NSMutableAttributedString.swift */; };
 		6429171021CB8D70006472BF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429170F21CB8D70006472BF /* UIView.swift */; };
 		6429171221CB8E4E006472BF /* ComposableOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429171121CB8E4E006472BF /* ComposableOperator.swift */; };
 		6429171421CB8F6A006472BF /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429171321CB8F6A006472BF /* UILabel.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610C19D421D122C60031718A /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
 		6429170F21CB8D70006472BF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		6429171121CB8E4E006472BF /* ComposableOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableOperator.swift; sourceTree = "<group>"; };
 		6429171321CB8F6A006472BF /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				6429170F21CB8D70006472BF /* UIView.swift */,
 				6429171321CB8F6A006472BF /* UILabel.swift */,
 				6429171621CB95A5006472BF /* UIButton.swift */,
+				610C19D421D122C60031718A /* NSMutableAttributedString.swift */,
 			);
 			path = ComposableStyling;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				6429171221CB8E4E006472BF /* ComposableOperator.swift in Sources */,
 				6429171421CB8F6A006472BF /* UILabel.swift in Sources */,
 				6429171021CB8D70006472BF /* UIView.swift in Sources */,
+				610C19D521D122C60031718A /* NSMutableAttributedString.swift in Sources */,
 				6429171721CB95A5006472BF /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

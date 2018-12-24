@@ -4,5 +4,6 @@
         <page name='UILabel'/>
         <page name='UIView'/>
         <page name='UIButton'/>
+        <page name='NSMutableAttributedString'/>
     </pages>
 </playground>
