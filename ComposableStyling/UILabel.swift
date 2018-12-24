@@ -31,3 +31,9 @@ public func styleLabelTextColor(_ color: UIColor) -> (UILabel) -> Void {
         $0.textColor = color
     }
 }
+
+public func styleLabelLineBreakMode(_ lineBreakMode: NSLineBreakMode) -> (UILabel) -> Void {
+    return {
+        $0.lineBreakMode = lineBreakMode
+    }
+}
