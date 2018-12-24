@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComposableStyling'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Functional styling in Swift.'
   s.description      = <<-DESC
 Functional styling provides elegant composable styling implementation in Swift.

@@ -9,9 +9,9 @@ let styleLabel = styleViewBackgroundColor(.white) <> styleLabelMultiline()
 styleLabel(label)
 
 let attributedString = NSMutableAttributedString(string: "hello\nhello\nhello")
-let styleString = styleNSMutableAttributedStringLineSpacing(20) <>
-    styleNSMutableAttributedStringFont(UIFont.systemFont(ofSize: 30)) <> styleNSMutableAttributedStringTextColor(.green) <>
-    styleNSMutableAttributedStringAlignment(.center)
+let styleString = styleMutableAttributedStringLineSpacing(20) <>
+    styleMutableAttributedStringFont(UIFont.systemFont(ofSize: 30)) <> styleMutableAttributedStringTextColor(.green) <>
+    styleMutableAttributedStringAlignment(.center)
 styleString(attributedString)
 
 label.attributedText = attributedString
