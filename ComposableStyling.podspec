@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComposableStyling'
-  s.version          = '1.1.1'
+  s.version          = '2.0.0'
   s.summary          = 'Functional styling in Swift.'
   s.description      = <<-DESC
 Functional styling provides elegant composable styling implementation in Swift.
@@ -19,9 +19,9 @@ Functional styling provides elegant composable styling implementation in Swift.
   s.author           = { 'takecian' => 'takecian@gmail.com' }
   s.source           = { :git => 'https://github.com/takecian/ComposableStyling.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'ComposableStyling/*.swift'
 end
